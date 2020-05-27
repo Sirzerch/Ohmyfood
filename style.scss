@@ -30,6 +30,12 @@ body {
 
 }
 
+.article {
+    display: flex;
+    justify-content: center;
+
+}
+
 .container {
     width: 40em;
     display: flex;
@@ -38,100 +44,109 @@ body {
 
 }
 
-.article {
-    display: flex;
-    justify-content: center;
-
-}
-
 .btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     box-shadow: 1px 1px 10px 0px #d4d4d4;
-    text-align: center;
     margin: 15px;
     width: 230px;
     height: 340px;
+    overflow: hidden;
 }
 
-
-.top-1 {
-    background: $background-top-1;
-
-    &__link {
-        text-decoration: none;
-        font-family: 'Kalam', cursive;
-        font-size: 1.1em;
-        color: #3d1319;
+.menu {
+    width: 100%;
+    height: 100%;
+    transition: 400ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    &--top-1 {
+        background: $background-top-1;
+    
+        &__link {
+            text-decoration: none;
+            font-family: 'Kalam', cursive;
+            font-size: 1.1em;
+            color: #3d1319;
+            overflow: hidden;
+    
+        }
+    
+        &__link span {
+            font-family: 'Devonshire', cursive;
+            font-size: 0.7em;
+            font-weight: 400;
+        }
+    }
+    
+    &--top-2 {
+        background: $background-top-2;
+    
+        &__link {
+            text-decoration: none;
+            font-family: 'PT Serif Caption', serif;
+            font-size: 0.9em;
+            color: #c77412;
+            
+        }
+    
+        &__link span {
+            font-family: 'Croissant One', cursive;
+            font-size: 0.7em;
+            background: linear-gradient(to right, #d17f45, #b07cd1);
+            color: transparent;
+            background-clip: text;
+            font-weight: 400;
+        }
+    }
+    
+    &--bot-1 {
+        background: $background-bot-1;
+    
+        &__link {
+            text-decoration: none;
+            font-family: 'Kalam', cursive;
+            font-size: 1.1em;
+            color: #0887fb;
+            font-weight: 400;
+        }
+    
+        &__link span {
+            font-family: 'Dancing Script', cursive;
+            font-size: 0.8em;
+            background: linear-gradient(to right, #0238e1, #4593f2);
+            color: transparent;
+            background-clip: text;
+        }
+    }
+    
+    &--bot-2 {
+        background: $background-bot-2;
+    
+        &__link {
+            text-decoration: none;
+            font-family: 'Kalam', cursive;
+            font-size: 1.1em;
+            color: #72bf56;
+            font-weight: 400;
+        }
+    
+        &__link span {
+            font-family: 'Kaushan Script', cursive;
+            font-size: 0.8em;
+            background: linear-gradient(to right, #5dad4b, #9ee46e);
+            color: transparent;
+            background-clip: text;
+        }
     }
 
-    &__link span {
-        font-family: 'Devonshire', cursive;
-        font-size: 0.7em;
-        font-weight: 400;
+    &:hover {
+        transform: scale(1.15);
+        opacity: 60%;
     }
-}
+    
 
-.top-2 {
-    background: $background-top-2;
-
-    &__link {
-        text-decoration: none;
-        font-family: 'PT Serif Caption', serif;
-        font-size: 0.9em;
-        color: #c77412;
-        
-    }
-
-    &__link span {
-        font-family: 'Croissant One', cursive;
-        font-size: 0.7em;
-        background: linear-gradient(to right, #d17f45, #b07cd1);
-        color: transparent;
-        background-clip: text;
-        font-weight: 400;
-    }
-}
-
-.bot-1 {
-    background: $background-bot-1;
-
-    &__link {
-        text-decoration: none;
-        font-family: 'Kalam', cursive;
-        font-size: 1.1em;
-        color: #0887fb;
-        font-weight: 400;
-    }
-
-    &__link span {
-        font-family: 'Dancing Script', cursive;
-        font-size: 0.8em;
-        background: linear-gradient(to right, #0238e1, #4593f2);
-        color: transparent;
-        background-clip: text;
-    }
-}
-
-.bot-2 {
-    background: $background-bot-2;
-
-    &__link {
-        text-decoration: none;
-        font-family: 'Kalam', cursive;
-        font-size: 1.1em;
-        color: #72bf56;
-        font-weight: 400;
-    }
-
-    &__link span {
-        font-family: 'Kaushan Script', cursive;
-        font-size: 0.8em;
-        background: linear-gradient(to right, #5dad4b, #9ee46e);
-        color: transparent;
-        background-clip: text;
-    }
 }
 
 .btn-byline {
