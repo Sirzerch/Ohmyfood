@@ -1,0 +1,13 @@
+// color: header footer byline
+$background-vert: #579c87;
+$text-color: #fdcb46;
+
+// color: menu
+$background-top-1: #fcdfdb;
+$background-top-2: #fff5fe;
+$background-bot-1: #edefef;
+$background-bot-2: #fdfffd;
+
+@mixin underline-none {
+    text-decoration: none;
+}

@@ -1,0 +1,61 @@
+.btn-byline {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    &__link {
+        border-radius: 0.6rem;
+        padding: 5px 35px;
+        background: $background-vert;
+        color: $text-color;
+        font-size: 1.7em;
+        @include underline-none;
+        font-family: 'Libre Franklin', sans-serif;
+        font-weight: 400;
+        margin-bottom: 90px;
+    }
+
+    &__link span {
+        animation: dot 2s infinite both;
+
+        &:nth-child(2) {
+            animation-delay: 0.5s;
+        }
+
+        &:nth-child(3) {
+            animation-delay: 1s;
+        }
+    }
+}
+@keyframes dot {
+    0% {
+        opacity: 0.1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.1;
+    }
+}
+.main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.article {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    width: 40em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
