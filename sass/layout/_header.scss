@@ -1,6 +1,8 @@
 .header {
     background: $background-vert;
     text-align: center;
+    margin: 0;
+    padding: 15px;
 
     &__heading {
         color: $text-color;
