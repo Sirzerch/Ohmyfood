@@ -302,6 +302,7 @@ body {
   letter-spacing: -0.1rem;
 }
 
+/*import des pages*/
 .btn-byline {
   text-align: center;
   display: -webkit-box;
@@ -382,5 +383,93 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.article1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.article1__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 50px;
+}
+
+.container1 {
+  width: 40em;
+}
+
+.menu1 {
+  background: #fcdfdb;
+  margin-bottom: 90px;
+  padding: 50px;
+  font-weight: 400;
+  color: #3d1319;
+}
+
+.menu1__title {
+  text-align: center;
+  padding-bottom: 15px;
+  font-family: 'Devonshire', cursive;
+  font-size: 45px;
+}
+
+.menu1__top {
+  width: 550px;
+  font-family: 'Kalam', cursive;
+}
+
+.menu1__mid {
+  width: 550px;
+  font-family: 'Kalam', cursive;
+}
+
+.menu1__bot {
+  width: 550px;
+  font-family: 'Kalam', cursive;
+}
+
+.menu1__footer {
+  text-align: center;
+  padding-top: 15px;
+  font-family: 'Devonshire', cursive;
+  font-size: 30px;
+}
+
+.subtitle1 {
+  text-align: center;
+}
+
+.subtitle1__underline {
+  background: linear-gradient(to top, #3d1319 0%, #3d1319 2px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 400ms;
+  transition: background-size 400ms;
+}
+
+.subtitle1__underline:hover {
+  background-size: 100% 100%;
+}
+
+.dish1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.dish1__price {
+  font-weight: 700;
 }
 /*# sourceMappingURL=main.css.map */
