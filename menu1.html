@@ -4,112 +4,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Devonshire&family=Kalam&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Devonshire&family=Kalam&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <title>La note enchantée</title>
 </head>
 
 <body>
-    <main>
-        <!--le header réutilisable-->
-        <header>
-            <h1 class="header">
-                <a href="index.html" class="header__heading">ohmyfood</a>
-            </h1>
-        </header>
+    <!--le header de la page d'accueil réutilisable-->
+    <header>
+        <h1 class="header">
+            <a href="index.html" class="header__heading">ohmyfood</a>
+        </h1>
+    </header>
 
-        <!-- les deux balises permettent de gérer en flexbox la page du menu1-->
-        <article class="article1">
-            <div class="container1">
+    <!-- les deux balises permettent de gérer en flexbox la page du menu1-->
+    <article class="article1">
+        <div class="container1">
 
-                <header>
-                    <h2 class="article1__title">La note enchantée</h2>
-                </header>
+            <header>
+                <h2 class="article1__title">La note enchantée</h2>
+            </header>
 
-                <!--Balise pour le background-->
-                <div class="menu1">
+            <!--Balise pour le background-->
+            <div class="menu1">
 
-                    <!--titre du menu-->
-                    <h2 class="menu1__title">La note enchantée</h2>
+                <!--titre du menu-->
+                <h2 class="menu1__title">La note enchantée</h2>
 
-                    <div class="menu1__top">
-                        <h3 class="subtitle1">
-                            <span class="subtitle1__underline">Prélude</span>
-                        </h3>
+                <div class="menu1__top">
+                    <div class="subtitle1">
 
-                        <div class="dish1">
-                            <p class="dish1__name">Ravioles de foie gras accompagnés de leur crème à la truffe</p>
-                            <p class="dish1__price">98€</p>
-                        </div>
-
-                        <div class="dish1">
-                            <p class="dish1__name">caviar osciètre sur blini à la farine de blé noir</p>
-                            <p class="dish1__price">115€</p>
-                        </div>
-
-                        <div class="dish1">
-                            <p class="dish1__name">Homard et espuma de potiron mariné aux zests d'orange</p>
-                            <p class="dish1__price">89E</p>
-                        </div>
-
-                        <div class="dish1">
-                            <p class="dish1__name">Foie gras de canard cuit entier, confiture de figue et pain
-                                toasté</p>
-                            <p class="dish1__price">105€</p>
-                        </div>
+                        <!--Balise permettant de surligner les sous-titres-->
+                        <p><i class="subtitle1__stick-left"></i><span class="subtitle1__underline">Prélude</span><i class="subtitle1__stick-right"></i></p>
                     </div>
 
-                    <div class="menu1__mid">
-                        <h3 class="subtitle1">
-                            <span class="subtitle1__underline">Point d'orgue</span>
-                        </h3>
-
-                        <div class="dish1">
-                            <p class="dish1__name">Noix de coquilles Saint-Jacques sur lit de purée de céleri-rave
-                            </p>
-                            <p class="dish1__price">102€</p>
-                        </div>
-
-                        <div class="dish1">
-                            <p class="dish1__name">Langoustine poêlée, purée de patate douce</p>
-                            <p class="dish1__price">205€</p>
-                        </div>
-
-                        <div class="dish1">
-                            <p class="dish1__name">mijoté de queue de boeuf et riz sauvage aux zests de citron</p>
-                            <p class="dish1__price">169€</p>
-                        </div>
-
+                    <!--Dish1 pour aligner les prix correspondant aux plats-->
+                    <div class="dish1">
+                        <p class="dish1__name">Ravioles de foie gras accompagnés de leur crème à la truffe</p>
+                        <p class="dish1__price">98€</p>
                     </div>
 
-                    <div class="menu1__bot">
-                        <h3 class="subtitle1">
-                            <span class="subtitle1__underline">Mouvement final</span>
-                        </h3>
-
-                        <p class="dish1__name">Macaron noisette et chocolat, glace au caramel brun et sel de
-                            Guérande
-                        </p>
-                        <p class="dish1__name">Baba au rhum revisité avec son coulis de citron</p>
-                        <p class="dish1__name">Tarte au citron meringuée destructurée</p>
-
+                    <div class="dish1">
+                        <p class="dish1__name">caviar osciètre sur blini à la farine de blé noir</p>
+                        <p class="dish1__price">115€</p>
                     </div>
 
-                    <div class="menu1__footer">
-                        <h3>La note enchantée</h3>
+                    <div class="dish1">
+                        <p class="dish1__name">Homard et espuma de potiron mariné aux zests d'orange</p>
+                        <p class="dish1__price">89€</p>
+                    </div>
+
+                    <div class="dish1">
+                        <p class="dish1__name">Foie gras de canard cuit entier, confiture de figue et pain
+                            toasté</p>
+                        <p class="dish1__price">105€</p>
                     </div>
                 </div>
-            </div>
-        </article>
 
-        <!--Le footer réutilisable-->
-        <footer class="footer">
-            <div class="btn-footer">
-                <a href="#" class="btn-footer__link">Mentions légales</a>
-                <a href="#" class="btn-footer__link">Contactez-nous</a>
+                <div class="menu1__mid">
+                    <div class="subtitle1">
+                        <p><i class="subtitle1__stick-left"></i><span class="subtitle1__underline">Point d'orgue</span><i class="subtitle1__stick-right"></i></p>
+                    </div>
+
+                    <div class="dish1">
+                        <p class="dish1__name">Noix de coquilles Saint-Jacques sur lit de purée de céleri-rave
+                        </p>
+                        <p class="dish1__price">102€</p>
+                    </div>
+
+                    <div class="dish1">
+                        <p class="dish1__name">Langoustine poêlée, purée de patate douce</p>
+                        <p class="dish1__price">205€</p>
+                    </div>
+
+                    <div class="dish1">
+                        <p class="dish1__name">mijoté de queue de boeuf et riz sauvage aux zests de citron</p>
+                        <p class="dish1__price">169€</p>
+                    </div>
+
+                </div>
+
+                <div class="menu1__bot">
+                    <div class="subtitle1">
+                        <p><i class="subtitle1__stick-left"></i><span class="subtitle1__underline">Mouvement final</span><i class="subtitle1__stick-right"></i></p>
+                    </div>
+
+                    <p class="dish1__name">Macaron noisette et chocolat, glace au caramel brun et sel de
+                        Guérande
+                    </p>
+                    <p class="dish1__name">Baba au rhum revisité avec son coulis de citron</p>
+                    <p class="dish1__name">Tarte au citron meringuée destructurée</p>
+
+                </div>
+
+                <div class="menu1__footer">
+                    <h3>La note enchantée</h3>
+                </div>
             </div>
-        </footer>
-    </main>
+        </div>
+    </article>
+
+    <!--Le footer de la page d'accueil réutilisable-->
+    <footer class="footer">
+        <div class="btn-footer">
+            <a href="#" class="btn-footer__link">Mentions légales</a>
+            <a href="#" class="btn-footer__link">Contactez-nous</a>
+        </div>
+    </footer>
 </body>
 
 </html>
