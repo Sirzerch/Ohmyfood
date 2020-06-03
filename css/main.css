@@ -424,17 +424,14 @@ body {
 }
 
 .menu1__top {
-  width: 550px;
   font-family: 'Kalam', cursive;
 }
 
 .menu1__mid {
-  width: 550px;
   font-family: 'Kalam', cursive;
 }
 
 .menu1__bot {
-  width: 550px;
   font-family: 'Kalam', cursive;
 }
 
@@ -496,5 +493,49 @@ body {
 
 .dish1__price {
   font-weight: 700;
+}
+
+/*media queries*/
+@media only screen and (max-width: 720px) {
+  .dish1 {
+    display: block;
+    text-align: center;
+  }
+  .container1 {
+    width: 30em;
+  }
+  .article1__title {
+    font-size: 40px;
+  }
+  .subtitle1__stick-right {
+    width: 0;
+  }
+  .subtitle1__stick-left {
+    width: 0;
+  }
+  .dish-bottom {
+    text-align: center;
+  }
+  .menu1__top {
+    padding-bottom: 15px;
+  }
+  .menu1__mid {
+    padding-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .container1 {
+    width: 20em;
+  }
+  .article1__title {
+    font-size: 30px;
+  }
+  .menu1__title {
+    font-size: 35px;
+  }
+  .menu1__footer {
+    font-size: 25px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

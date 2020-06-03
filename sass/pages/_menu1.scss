@@ -32,18 +32,14 @@ $text-color: #3d1319;
     }
 
     &__top {
-        width: 550px;
         font-family: 'Kalam', cursive;
-
     }
 
     &__mid {
-        width: 550px;
         font-family: 'Kalam', cursive;
     }
 
     &__bot {
-        width: 550px;
         font-family: 'Kalam', cursive;
     }
 
@@ -82,7 +78,7 @@ $text-color: #3d1319;
         border-radius: 100% 100% 100% 20%;
 
     }
-    
+
     &__stick-right {
         content: "";
         position: absolute;
@@ -103,5 +99,60 @@ $text-color: #3d1319;
 
     &__price {
         font-weight: 700;
+    }
+}
+
+/*media queries*/
+
+@media #{$medium-menu} {
+    .dish1 {
+        display: block;
+        text-align: center;
+    }
+
+    .container1 {
+        width: 30em;
+    }
+    .article1__title {
+        font-size: 40px;
+    }
+
+    .subtitle1__stick-right {
+        width: 0;
+    }
+
+    .subtitle1__stick-left {
+        width: 0;
+    }
+    .dish-bottom {
+        text-align: center;
+    }
+    .menu1 {
+
+        &__top{
+            padding-bottom: 15px;
+        }
+
+        &__mid {
+            padding-bottom: 15px;
+        }
+    }
+}
+
+@media #{$small-menu} {
+    .container1 {
+        width: 20em;
+    }
+
+    .article1__title {
+        font-size: 30px;
+    }
+
+    .menu1__title {
+        font-size: 35px;
+    }
+
+    .menu1__footer {
+        font-size: 25px;
     }
 }

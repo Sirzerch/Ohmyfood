@@ -7,3 +7,9 @@ $background-top-1: #fcdfdb;
 $background-top-2: #fff5fe;
 $background-bot-1: #edefef;
 $background-bot-2: #fdfffd;
+
+$medium: 720px;
+$medium-menu: "only screen and (max-width: #{$medium})";
+
+$small: 520px;
+$small-menu: "only screen and (max-width: #{$small})";
