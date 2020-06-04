@@ -1,15 +1,26 @@
-// color: header footer byline
+// couleur du header et du footer
 $background-vert: #579c87;
 $text-color: #fdcb46;
 
-// color: menu
+// background-color de la page d'accueil
 $background-top-1: #fcdfdb;
 $background-top-2: #fff5fe;
 $background-bot-1: #edefef;
 $background-bot-2: #fdfffd;
 
+// couleur de la note enchantée
+$background-menu1: #fcdfdb;
+$color-menu1: #3d1319;
+
+// couleur du chic à la francaise
+$background-menu2: #fff5fe;
+$color-menu2: linear-gradient(to right, #d17f45, #7438eb);
+
+
+// media queries taille moyenne 
 $medium: 720px;
 $medium-menu: "only screen and (max-width: #{$medium})";
 
+// media queries taille petite
 $small: 520px;
 $small-menu: "only screen and (max-width: #{$small})";
