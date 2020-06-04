@@ -50,7 +50,7 @@
     position: relative;
 
     &__underline {
-        background: linear-gradient(to top, #0238e1 0%, #4593f2 2px, transparent 3px) no-repeat;
+        background: linear-gradient(to top, #0238e1 0%, #75b7ff 2px, transparent 3px) no-repeat;
         background-size: 0 100%;
         transition: background-size 400ms;
 
@@ -59,28 +59,67 @@
         }
     }
 
+    &__top-color {
+        color: #0238e1;
+        background: currentColor;
+    }
+
+    &__mid-color {
+        color: #3093ff;
+        background: currentColor;
+    }
+
+    &__bot-color {
+        color: #75b7ff;
+        background: currentColor;
+    }
+
     &__stick-left {
         content: "";
         position: absolute;
-        color: #0238e1;
-        background: currentColor;
         width: 8em;
-        height: 0em;
+        height: 0.2em;
         left: 0;
         bottom: 0.8em;
-        border-top: 10px solid;
-        border-left: 10px solid;
+        transform: skewX(30deg);
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 0.4em;
+            height: 0.23em;
+            border-radius: 100%;
+            border: solid;
+            border-color: transparent transparent currentColor;
+            border-width: 0.2em 0.2em 0.2em 0em;
+            left: -0.26em;
+            top: -0.46em;
+            transform: rotate(20deg);
+        }
     }
 
     &__stick-right {
         content: "";
         position: absolute;
-        color: #0238e1;
-        background: currentColor;
         width: 8em;
         height: 0.2em;
         right: 0;
         bottom: 0.8em;
+        transform: skewX(-30deg);
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 0.4em;
+            height: 0.23em;
+            border-radius: 100%;
+            border: solid;
+            border-color: transparent transparent currentColor;
+            border-width: 0.2em 0em 0.2em 0.2em;
+            right: -0.26em;
+            top: -0.46em;
+            transform: rotate(-20deg);
+        }
     }
 
 }
