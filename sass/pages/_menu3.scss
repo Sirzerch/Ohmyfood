@@ -62,24 +62,25 @@
     &__stick-left {
         content: "";
         position: absolute;
+        color: #0238e1;
         background: currentColor;
         width: 8em;
-        height: 0.2em;
+        height: 0em;
         left: 0;
         bottom: 0.8em;
-        border-radius: 100% 100% 100% 20%;
-
+        border-top: 10px solid;
+        border-left: 10px solid;
     }
 
     &__stick-right {
         content: "";
         position: absolute;
+        color: #0238e1;
         background: currentColor;
         width: 8em;
         height: 0.2em;
         right: 0;
         bottom: 0.8em;
-        border-radius: 30% 100% 0% 30%;
     }
 
 }
