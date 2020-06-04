@@ -20,6 +20,10 @@ $color-menu2: linear-gradient(to right, #d17f45, #7438eb);
 $background-menu3: #edefef;
 $color-menu3: linear-gradient(to right, #0238e1, #4593f2);
 
+// couleur de la palette du goût 
+$background-menu4: #fdfffd;
+$color-menu4: linear-gradient(to right, #5dad4b, #d5ffc2);
+
 // media queries taille moyenne 
 $medium: 720px;
 $medium-menu: "only screen and (max-width: #{$medium})";
