@@ -151,10 +151,18 @@
 
     .subtitle3__stick-right {
         width: 0;
+
+        &::after {
+            border-color: transparent;
+        }
     }
 
     .subtitle3__stick-left {
         width: 0;
+
+        &::after {
+            border-color: transparent;
+        }
     }
 
     .menu3 {

@@ -857,8 +857,14 @@ body {
   .subtitle3__stick-right {
     width: 0;
   }
+  .subtitle3__stick-right::after {
+    border-color: transparent;
+  }
   .subtitle3__stick-left {
     width: 0;
+  }
+  .subtitle3__stick-left::after {
+    border-color: transparent;
   }
   .menu3__top {
     padding-bottom: 15px;
