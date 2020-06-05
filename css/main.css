@@ -578,6 +578,7 @@ body {
   background: linear-gradient(to right, #d17f45, #7438eb);
   color: transparent;
   background-clip: text;
+  -webkit-background-clip: text;
 }
 
 .menu2__top {
@@ -731,6 +732,7 @@ body {
   background: linear-gradient(to right, #0238e1, #8fc5ff);
   color: transparent;
   background-clip: text;
+  -webkit-background-clip: text;
 }
 
 .menu3__top {
@@ -928,6 +930,7 @@ body {
   background: linear-gradient(to right, #5dad4b, #d5ffc2);
   color: transparent;
   background-clip: text;
+  -webkit-background-clip: text;
 }
 
 .menu4__top {
