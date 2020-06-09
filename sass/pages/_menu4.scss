@@ -61,26 +61,19 @@
     }
 
     &__stick-left {
-        content: "";
-        position: absolute;
-        background: currentColor;
-        width: 8em;
-        height: 0.2em;
-        left: 0;
-        bottom: 0.8em;
-        border-radius: 100% 100% 100% 20%;
+       position: absolute;
+       width: 8em;
+       bottom: 0.5em;
+       left: 0;
 
     }
 
     &__stick-right {
-        content: "";
         position: absolute;
-        background: currentColor;
         width: 8em;
-        height: 0.2em;
+        bottom: 0.5em;
         right: 0;
-        bottom: 0.8em;
-        border-radius: 30% 100% 0% 30%;
+        
     }
 
 }

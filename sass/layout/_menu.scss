@@ -3,6 +3,10 @@
     transition: 400ms;
     margin: 0;
 
+    &__img {
+        width: 1em;
+    }
+
     &--top-1 {
         background: $background-top-1;
         width: 100%;

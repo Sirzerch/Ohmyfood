@@ -66,26 +66,19 @@
     }
 
     &__stick-left {
-        content: "";
+        width: 6.5em;
         position: absolute;
-        background: currentColor;
-        width: 8em;
-        height: 0.2em;
+        bottom: 0.5em;
         left: 0;
-        bottom: 0.8em;
-        border-radius: 100% 100% 100% 20%;
 
     }
 
     &__stick-right {
-        content: "";
+        width: 6.5em;
         position: absolute;
-        background: currentColor;
-        width: 8em;
-        height: 0.2em;
+        bottom: 0.5em;
         right: 0;
-        bottom: 0.8em;
-        border-radius: 30% 100% 0% 30%;
+        transform: rotate(180deg);
     }
 
 }
