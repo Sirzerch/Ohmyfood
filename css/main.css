@@ -687,16 +687,16 @@ body {
 
 @media only screen and (max-width: 520px) {
   .container2 {
-    width: 20em;
+    width: 17em;
   }
   .article2__title {
-    font-size: 30px;
+    font-size: 25px;
   }
   .menu2__title {
-    font-size: 35px;
+    font-size: 30px;
   }
   .menu2__footer {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 
@@ -885,16 +885,16 @@ body {
 
 @media only screen and (max-width: 520px) {
   .container3 {
-    width: 20em;
+    width: 17em;
   }
   .article3__title {
-    font-size: 30px;
+    font-size: 25px;
   }
   .menu3__title {
-    font-size: 35px;
+    font-size: 30px;
   }
   .menu3__footer {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 
@@ -1024,16 +1024,16 @@ body {
 
 @media only screen and (max-width: 520px) {
   .container4 {
-    width: 20em;
+    width: 17em;
   }
   .article4__title {
-    font-size: 30px;
+    font-size: 25px;
   }
   .menu4__title {
-    font-size: 35px;
+    font-size: 30px;
   }
   .menu4__footer {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 /*# sourceMappingURL=main.css.map */
