@@ -145,6 +145,14 @@
         &__mid {
             padding-bottom: 15px;
         }
+
+        &__img-title {
+            left: 3.6em;
+        }
+
+        &__img-footer {
+            left: 1.3em;
+        }
     }
 }
 
@@ -157,11 +165,23 @@
         font-size: 25px;
     }
 
-    .menu1__title {
-        font-size: 30px;
-    }
+    .menu1 {
 
-    .menu1__footer {
-        font-size: 20px;
+        &__title {
+            font-size: 25px;
+        }
+
+        &__footer {
+            font-size: 20px;
+        }
+
+        &__img-title {
+            left: 2.7em;
+            bottom: 2em;
+        }
+
+        &__img-footer {
+            left: -0.5em;
+        }
     }
 }

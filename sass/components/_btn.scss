@@ -55,3 +55,9 @@
 
     }
 }
+
+@media #{$small-menu} {
+    .btn-footer {
+        font-size: 0.8em;
+    }
+}

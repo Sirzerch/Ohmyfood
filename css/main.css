@@ -118,6 +118,12 @@ body {
   }
 }
 
+@media only screen and (max-width: 520px) {
+  .btn-footer {
+    font-size: 0.8em;
+  }
+}
+
 .menu {
   height: 100%;
   -webkit-transition: 400ms;
@@ -535,6 +541,12 @@ body {
   .menu1__mid {
     padding-bottom: 15px;
   }
+  .menu1__img-title {
+    left: 3.6em;
+  }
+  .menu1__img-footer {
+    left: 1.3em;
+  }
 }
 
 @media only screen and (max-width: 520px) {
@@ -545,10 +557,17 @@ body {
     font-size: 25px;
   }
   .menu1__title {
-    font-size: 30px;
+    font-size: 25px;
   }
   .menu1__footer {
     font-size: 20px;
+  }
+  .menu1__img-title {
+    left: 2.7em;
+    bottom: 2em;
+  }
+  .menu1__img-footer {
+    left: -0.5em;
   }
 }
 
