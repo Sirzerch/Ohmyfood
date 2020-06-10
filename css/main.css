@@ -124,6 +124,117 @@ body {
   }
 }
 
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #579c87;
+  margin-top: 2%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.header {
+  background: #579c87;
+  text-align: center;
+  margin: 0;
+  padding: 15px;
+}
+
+.header__heading {
+  color: #fdcb46;
+  text-decoration: none;
+  font-size: 1.4em;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.1rem;
+}
+
+/*import des pages*/
+.btn-byline {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn-byline__link {
+  border-radius: 0.6rem;
+  padding: 5px 35px;
+  background: #579c87;
+  color: #fdcb46;
+  font-size: 1.7em;
+  text-decoration: none;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  margin-bottom: 90px;
+}
+
+.btn-byline__link span {
+  -webkit-animation: dot 2s infinite both;
+          animation: dot 2s infinite both;
+}
+
+.btn-byline__link span:nth-child(2) {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.btn-byline__link span:nth-child(3) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+@-webkit-keyframes dot {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
+
+@keyframes dot {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
+
+.home-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  width: 40em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .menu {
   height: 100%;
   -webkit-transition: 400ms;
@@ -282,117 +393,6 @@ body {
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
   opacity: 60%;
-}
-
-.footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background: #579c87;
-  margin-top: 2%;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  left: 0;
-}
-
-.header {
-  background: #579c87;
-  text-align: center;
-  margin: 0;
-  padding: 15px;
-}
-
-.header__heading {
-  color: #fdcb46;
-  text-decoration: none;
-  font-size: 1.4em;
-  font-family: 'Libre Franklin', sans-serif;
-  font-weight: 700;
-  letter-spacing: -0.1rem;
-}
-
-/*import des pages*/
-.btn-byline {
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.btn-byline__link {
-  border-radius: 0.6rem;
-  padding: 5px 35px;
-  background: #579c87;
-  color: #fdcb46;
-  font-size: 1.7em;
-  text-decoration: none;
-  font-family: 'Libre Franklin', sans-serif;
-  font-weight: 400;
-  margin-bottom: 90px;
-}
-
-.btn-byline__link span {
-  -webkit-animation: dot 2s infinite both;
-          animation: dot 2s infinite both;
-}
-
-.btn-byline__link span:nth-child(2) {
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
-}
-
-.btn-byline__link span:nth-child(3) {
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-}
-
-@-webkit-keyframes dot {
-  0% {
-    opacity: 0.1;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0.1;
-  }
-}
-
-@keyframes dot {
-  0% {
-    opacity: 0.1;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0.1;
-  }
-}
-
-.home-page {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.container {
-  width: 40em;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .article1 {
