@@ -1,52 +1,11 @@
-.btn-byline {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-
-    &__link {
-        border-radius: 0.6rem;
-        padding: 5px 35px;
-        background: $background-vert;
-        color: $text-color;
-        font-size: 1.7em;
-        @include underline-none;
-        font-family: 'Libre Franklin', sans-serif;
-        font-weight: 400;
-        margin-bottom: 90px;
-    }
-
-    &__link span {
-        animation: dot 2s infinite both;
-
-        &:nth-child(2) {
-            animation-delay: 0.5s;
-        }
-
-        &:nth-child(3) {
-            animation-delay: 1s;
-        }
-    }
-}
-@keyframes dot {
-    0% {
-        opacity: 0.1;
-    }
-
-    50% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 0.1;
-    }
-}
-
+//Propriétés de la page
 .home-page {
     display: flex;
     justify-content: center;
 
 }
 
+//Conteneur des menus
 .container {
     width: 40em;
     display: flex;
@@ -55,6 +14,7 @@
 
 }
 
+//Les menus
 .menu {
     height: 100%;
     transition: 400ms;
@@ -174,5 +134,116 @@
         transform: scale(1.15);
         opacity: 60%;
     }
+}
 
+.btn {
+    box-shadow: 1px 1px 10px 0px #d4d4d4;
+    margin: 15px;
+    width: 230px;
+    height: 340px;
+    overflow: hidden;
+}
+
+//Bouton "prochainement"
+.btn-byline {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    &__link {
+        border-radius: 0.6rem;
+        padding: 5px 35px;
+        background: $background-vert;
+        color: $text-color;
+        font-size: 1.7em;
+        @include underline-none;
+        font-family: 'Libre Franklin', sans-serif;
+        font-weight: 400;
+        margin-bottom: 90px;
+    }
+
+    &__link span {
+        animation: dot 2s infinite both;
+
+        &:nth-child(2) {
+            animation-delay: 0.5s;
+        }
+
+        &:nth-child(3) {
+            animation-delay: 1s;
+        }
+    }
+}
+@keyframes dot {
+    0% {
+        opacity: 0.1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.1;
+    }
+}
+
+//Les boutons du footer
+.btn-footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    &__link {
+        color: $text-color;
+        font-size: 1.3em;
+        padding: 15px;
+        @include underline-none;
+        font-family: 'Libre Franklin', sans-serif;
+        font-weight: 400;
+        animation: wiggle 1s infinite alternate;
+    }
+}
+
+@keyframes wiggle {
+    0% {
+        transform: rotate(1deg) translate(1px, 0px);
+    }
+    10%{
+        transform: rotate(-1deg) translate(-1px, 0px);
+    }
+    20% {
+        transform: rotate(1deg) translate(1px, 0px);
+    }
+    30% {
+        transform: rotate(-1deg) translate(-1px, 0px);
+    }
+    50% {
+        transform: rotate(1deg) translate(1px, 0px);
+    }
+    60% {
+        transform: rotate(-1deg) translate(-1px, 0px);
+    }
+    70% {
+        transform: rotate(1deg) translate(1px, 0px);
+    }
+    80% {
+        transform: rotate(-1deg) translate(-1px, 0px);
+    }
+    90% {
+        transform: rotate(1deg) translate(1px, 0px);
+    }
+    100% {
+        transform: rotate(-1deg) translate(-1px, 0px);
+
+    }
+}
+
+/*media queries*/
+
+//Taille d'écran 520px
+@media #{$small-menu} {
+    .btn-footer {
+        font-size: 0.8em;
+    }
 }

@@ -1,7 +1,11 @@
+/*import des propriétés du corps du site*/
 @import "./base/body";
+
+/*import des variables et mixins*/
 @import "./utils/variables";
 @import "./utils/mixin";
-@import "./components/btn";
+
+/*import des blocks réutilisables*/
 @import "./layout/footer";
 @import "./layout/header";
 

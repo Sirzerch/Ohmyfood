@@ -1,3 +1,4 @@
+//Propriétés de l'article
 .article2 {
     display: flex;
     justify-content: center;
@@ -9,10 +10,12 @@
     }
 }
 
+//Conteneur de l'article
 .container2 {
     width: 40em;
 }
 
+//Le menu
 .menu2 {
     background: $background-menu2;
     margin-bottom: 90px;
@@ -49,6 +52,7 @@
     }
 }
 
+//Sous-titres du menu
 .subtitle2 {
     text-align: center;
     font-size: 20px;
@@ -83,6 +87,7 @@
 
 }
 
+//Propriétés du texte du menu
 .dish2 {
     display: flex;
     justify-content: space-between;
@@ -94,6 +99,7 @@
 
 /*media queries*/
 
+//Taille d'écran 720px
 @media #{$medium-menu} {
     .dish2 {
         display: block;
@@ -132,6 +138,7 @@
     }
 }
 
+//Taille d'écran 520px
 @media #{$small-menu} {
     .container2 {
         width: 17em;
